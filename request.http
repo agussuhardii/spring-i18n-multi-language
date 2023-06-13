@@ -1,0 +1,14 @@
+### Wellcome guest default language
+GET http://localhost:8080/welcome
+
+### Wellcome guest en-us language
+GET http://localhost:8080/welcome
+Accept-Language: en-us
+
+### Wellcome agus default language
+GET http://localhost:8080/welcome/agus
+
+### Wellcome agus en-us language
+GET http://localhost:8080/welcome/agus
+Accept-Language: en-us
+
